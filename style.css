@@ -1,0 +1,65 @@
+body    {
+    background: #2c4766;
+}
+h1  {
+    position:static;
+    text-align: center;
+    font-size: 3rem;
+    color: azure;
+    margin: auto 10px;
+    font-family: "BYekan";
+}
+@font-face {
+    font-family: "BYekan";
+    src: url(BYekan.woff);
+}
+img  {
+    width: 18vw;
+    height: 18vw;
+    /* opacity: 60%; */
+    background: #2c4766;
+    border-radius: 5%;
+    /* animation: animateBlink 10s linear 1;
+    animation-delay: calc(var(--i) * (10s / 25)); */
+}
+td  {
+    text-align: center;
+    width: 20vw;
+    height: 20vw;
+    /* opacity: 60%; */
+    background: #131f2c;
+    border-radius: 5%;
+    /* animation: animateBlink 10s linear 1;
+    animation-delay: calc(var(--i) * (10s / 25)); */
+}
+td:hover   {
+    /* animation: animateBlink 3s linear infinite; */
+    background: greenyellow;
+    /* opacity: 100%; */
+}
+img:hover   {
+    opacity: 60%;
+
+}
+table   {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    text-align: center;
+    background-image: url("header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes animateBlink {
+
+    0% {
+        background: #2c4766;
+    }
+    25% {
+        background: #0ef;
+    }
+    75% {
+        background: #2c4766;
+    }
+}

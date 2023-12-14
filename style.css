@@ -65,12 +65,12 @@ table   {
         display: none;
     }
     td  {
-        width: 99vw;
-        height: 99vw;
+        width: 98vw;
+        height: 98vw;
     }
     img  {
-        width: 97vw;
-        height: 97vw;
+        width: 96vw;
+        height: 96vw;
     }
 }
 @media screen and (min-width: 480px)  {

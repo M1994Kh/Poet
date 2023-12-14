@@ -4,7 +4,6 @@ body    {
 h1  {
     position:static;
     text-align: center;
-    font-size: 3rem;
     color: azure;
     margin: auto 10px;
     font-family: "BYekan";
@@ -61,5 +60,31 @@ table   {
     }
     75% {
         background: #2c4766;
+    }
+}
+@media screen and (max-width: 480px)  {
+
+    h1  {
+        font-size: 3rem;
+    }
+
+    .mobile-view  {
+        display: block;
+    }
+    .laptop-view {
+        display: none;
+    }
+}
+@media screen and (min-width: 480px)  {
+
+    h1  {
+        font-size: 10vw;
+    }
+
+    .mobile-view  {
+        display: none;
+    }
+    .laptop-view {
+        display: block;
     }
 }

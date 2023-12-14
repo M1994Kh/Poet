@@ -13,23 +13,13 @@ h1  {
     src: url(BYekan.woff);
 }
 img  {
-    width: 18vw;
-    height: 18vw;
-    /* opacity: 60%; */
     background: #2c4766;
     border-radius: 5%;
-    /* animation: animateBlink 10s linear 1;
-    animation-delay: calc(var(--i) * (10s / 25)); */
 }
 td  {
     text-align: center;
-    width: 20vw;
-    height: 20vw;
-    /* opacity: 60%; */
     background: #131f2c;
     border-radius: 5%;
-    /* animation: animateBlink 10s linear 1;
-    animation-delay: calc(var(--i) * (10s / 25)); */
 }
 td:hover   {
     /* animation: animateBlink 3s linear infinite; */
@@ -74,6 +64,14 @@ table   {
     .laptop-view {
         display: none;
     }
+    td  {
+        width: 100vw;
+        height: 100vw;
+    }
+    img  {
+        width: 98vw;
+        height: 98vw;
+    }
 }
 @media screen and (min-width: 480px)  {
 
@@ -86,5 +84,13 @@ table   {
     }
     .laptop-view {
         display: block;
+    }
+    td  {
+        width: 20vw;
+        height: 20vw;
+    }
+    img  {
+        width: 18vw;
+        height: 18vw;
     }
 }
